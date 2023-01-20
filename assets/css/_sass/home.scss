@@ -1,0 +1,50 @@
+//HERO IMAGE
+.hero-image {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+	background: linear-gradient(
+       rgba(20,20,20, .1), 
+       rgba(20,20,20, .1)),
+       url('/assets/img/top-in-clouds.jpeg');
+	background-size: cover;
+	background-position: top;
+	width: 100vw;
+	height: 50vh;
+    min-height: 600px;
+    border-bottom: 4px solid $color-secondary;
+
+    h1,h2,h3 {
+    	color: #FFF;
+    }
+    h1 {
+    	font-size: 8rem;
+    }
+    h2 {
+    	font-size: 2rem;
+    	font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+    h3 {
+    	font-size: 1rem;
+    	font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+}
+
+.hero__container--img {
+	width: 40%;
+	margin-top: 4rem;
+}
+
+
+
+@media (max-width: 767px) {
+	.hero-image {
+		width: 100vw;
+		height: 50vh;
+	    min-height: 400px;
+	}
+	.hero__container--img {
+		width: 60%;
+	}
+}

@@ -1,0 +1,117 @@
+.quote-section {
+	margin-top: 3rem;
+	padding-top: .8rem;
+	padding-bottom: .8rem;
+	border-top: 4px $color-secondary solid;
+	font-family: trade-gothic-next-compressed,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: $color-primary;
+
+  blockquote {
+    color: $color-light;
+    margin: 0 auto;
+    span:nth-child(1){
+    	font-size: 2.4rem;
+    }
+    >span:nth-child(3){
+    	font-size: 1.4rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .quote-section {
+    blockquote {
+      span:nth-child(1){
+    	font-size: 1.8rem;
+      }
+	  span:nth-child(3){
+	    font-size: 1.2rem;
+	  }
+    }
+  }
+}
+
+
+footer {
+	padding: 4rem 4rem 2rem 4rem;
+	border-top: 4px $color-secondary solid;
+	position: sticky;
+	background-color: #FFFFFF;
+	// background-image: url("https://yli.sites.clemson.edu/orod/assets/img/services-bg.png");
+}
+
+.footer__left {
+	display: flex;
+	flex-direction: column;
+
+	figure {
+		width: 260px;
+		margin-left: -12px;
+	}
+
+	a {
+		font-family: trade-gothic-next-compressed,sans-serif;
+		font-size: 1.1rem;
+		color: $color-primary;
+		text-decoration: none;
+		width: 50%;
+	}
+}
+
+.footer__logo {
+	max-height: 90px;
+	margin-bottom: -2rem;
+}
+
+.footer-social {
+	font-size: 1.5rem;
+}
+
+.footer__right--btn {
+	background-color: $color-primary;
+	border-radius: 0;
+	width: 160px;
+	color: $color-light;
+	font-size: 1.2rem;
+	font-family: trade-gothic-next,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+	&:hover {
+		color: $color-primary;
+		background-color: $color-light;
+		border: 1px solid $color-primary;
+	}
+}
+
+.footer__about {
+	color: $color-primary;
+}
+
+.footer__diversity {
+	color: darken($color-light, 70%);
+	font-size: .8rem;
+	text-align: center;
+	font-family: "Montserrat", sans-serif !important;
+}
+
+// @media (max-width: 840px) {
+// .footer__left {
+// 	a {
+// 		width: 100%;
+// 	}
+// }
+// }
+
+@media (max-width: 560px) {
+	.footer__logo {
+		max-height: 65px;
+	}
+	 .footer__left {
+		a {
+			width: 100%;
+		}
+	}
+}
