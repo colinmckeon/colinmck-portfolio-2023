@@ -41,7 +41,8 @@
 
 .nav__logo {
   img {
-    height: 30px;
+    margin-top: -1rem;
+    height: 70px;
     float: left;
     @include small {
       float: none;

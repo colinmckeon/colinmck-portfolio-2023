@@ -6,8 +6,11 @@
 @import "header";
 @import "footer";
 @import "home";
-// @import "contact";
+@import "my-work";
 
+* {
+    box-sizing: border-box;
+}
 
 html {
 	font-size: 100%;
