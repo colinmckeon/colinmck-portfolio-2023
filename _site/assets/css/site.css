@@ -237,7 +237,8 @@ footer {
   .hero__container--img {
     width: 60%; } }
 .about p {
-  text-align: center; }
+  text-align: center;
+  font-size: 1.2rem; }
 .about__img {
   margin-top: 2rem;
   text-align: center; }
@@ -245,27 +246,69 @@ footer {
     font-size: 3rem; }
   .about__img img {
     width: 18rem;
-    border-radius: 10%;
     border: 6px solid #525B56;
     box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.6); }
 .about__split-img {
   display: flex;
-  flex-flow: row nowrap; }
+  flex-flow: row nowrap;
+  margin-bottom: 1rem; }
   .about__split-img--a {
     background: url("/assets/img/img1.JPG");
     background-size: cover;
     background-position: center;
-    height: 10rem;
+    height: 20rem;
+    border: 6px solid #525B56;
     width: 50%;
-    margin-left: 1rem; }
+    margin-left: 1rem;
+    box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.6); }
   .about__split-img--b {
-    background: url("/assets/img/img1.JPG");
+    background: url("/assets/img/ryder-cup.JPG");
     background-size: cover;
     background-position: center;
-    height: 10rem;
+    height: 20rem;
+    border: 6px solid #525B56;
     width: 50%;
-    margin-left: 1rem; }
+    margin-left: 1rem;
+    box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.6); }
+  .about__split-img--c {
+    background: url("/assets/img/disc-golf.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    border: 6px solid #525B56;
+    width: 50%;
+    margin-left: 1rem;
+    box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.6); }
+  .about__split-img--d {
+    background: url("/assets/img/q-2.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    border: 6px solid #525B56;
+    width: 50%;
+    margin-left: 1rem;
+    box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.6); }
 
+@media (max-width: 600px) {
+  .about__split-img {
+    flex-flow: column nowrap;
+    margin-bottom: 0; }
+    .about__split-img--a {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 1rem; }
+    .about__split-img--b {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 1rem; }
+    .about__split-img--c {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 1rem; }
+    .about__split-img--d {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 1rem; } }
 .my-work__intro {
   margin-top: 7rem;
   text-align: center; }

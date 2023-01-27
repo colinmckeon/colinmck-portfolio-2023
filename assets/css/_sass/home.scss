@@ -63,6 +63,7 @@
 .about {
 	p {
 		text-align: center;
+		font-size: 1.2rem;
 	}
 
 	&__img {
@@ -73,7 +74,7 @@
 		}
 		img {
 			width: 18rem;
-			border-radius: 10%;
+			// border-radius: 10%;
 			border: 6px solid $color-secondary;
 			box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.6);
 		}
@@ -82,28 +83,81 @@
 	&__split-img {
 		display: flex;
 		flex-flow: row nowrap;
+		margin-bottom: 1rem;
 
 		 &--a {
 		 	background: url('/assets/img/img1.JPG');
 			background-size: cover;
 			background-position: center;
-			height: 10rem;
+			height: 20rem;
+			border: 6px solid $color-secondary;
 			width: 50%;
 			margin-left: 1rem;
+			box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.6);
 		 }
 		 &--b {
-		 	background: url('/assets/img/img1.JPG');
+		 	background: url('/assets/img/ryder-cup.JPG');
 			background-size: cover;
 			background-position: center;
-			height: 10rem;
+			height: 20rem;
+			border: 6px solid $color-secondary;
 			width: 50%;
 			margin-left: 1rem;
+			box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.6);
+		 }
+		 &--c {
+		 	background: url('/assets/img/disc-golf.JPG');
+			background-size: cover;
+			background-position: center;
+			height: 20rem;
+			border: 6px solid $color-secondary;
+			width: 50%;
+			margin-left: 1rem;
+			box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.6);
+		 }
+		 &--d {
+		 	background: url('/assets/img/q-2.JPG');
+			background-size: cover;
+			background-position: center;
+			height: 20rem;
+			border: 6px solid $color-secondary;
+			width: 50%;
+			margin-left: 1rem;
+			box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.6);
 		 }
 	}
 }
 
+@media (max-width: 600px) {
+	.about {
 
+	&__split-img {
+		flex-flow: column nowrap;
+		margin-bottom: 0;
 
+		 &--a {
+			width: 100%;
+			margin-left: 0;
+			margin-bottom: 1rem;
+		 }
+		 &--b {
+			width: 100%;
+			margin-left: 0;
+			margin-bottom: 1rem;
+		 }
+		 &--c {
+			width: 100%;
+			margin-left: 0;
+			margin-bottom: 1rem;
+		 }
+		 &--d {
+			width: 100%;
+			margin-left: 0;
+			margin-bottom: 1rem;
+		 }
+	}
+}
+}
     
 /////////////////////////////////
 //ABOUT
