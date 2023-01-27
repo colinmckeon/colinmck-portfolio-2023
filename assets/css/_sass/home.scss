@@ -51,6 +51,55 @@
 	}
 }
 
+@media (max-width: 740px) {
+	.hero-image {
+
+	    h1 {
+	    	font-size: 5rem;
+	    }
+	    h2 {
+	    	font-size: 1.2rem;
+	    	font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+	    }
+	    h3 {
+	    	font-size: 1rem;
+	    	font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+	    }
+	}
+}
+@media (max-width: 444px) {
+	.hero-image {
+
+	    h1 {
+	    	font-size: 3rem;
+	    }
+	    h2 {
+	    	font-size: 1rem;
+	    	font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+	    }
+	    h3 {
+	    	font-size: .9rem;
+	    	font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+	    }
+	}
+}
+@media (max-width: 400px) {
+	.hero-image {
+
+	    h1 {
+	    	font-size: 3rem;
+	    }
+	    h2 {
+	    	font-size: 1rem;
+	    	font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+	    }
+	    h3 {
+	    	font-size: .7rem;
+	    	font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+	    }
+	}
+}
+
 /////////////////////////////////
 //HERO IMAGE
 ////////////////////////////////
@@ -73,7 +122,7 @@
 			font-size: 3rem;
 		}
 		img {
-			width: 18rem;
+			width: 20rem;
 			// border-radius: 10%;
 			border: 6px solid $color-secondary;
 			box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.6);
@@ -89,7 +138,7 @@
 		 	background: url('/assets/img/img1.JPG');
 			background-size: cover;
 			background-position: center;
-			height: 20rem;
+			height: 30rem;
 			border: 6px solid $color-secondary;
 			width: 50%;
 			margin-left: 1rem;
@@ -99,7 +148,7 @@
 		 	background: url('/assets/img/ryder-cup.JPG');
 			background-size: cover;
 			background-position: center;
-			height: 20rem;
+			height: 30rem;
 			border: 6px solid $color-secondary;
 			width: 50%;
 			margin-left: 1rem;
@@ -109,7 +158,7 @@
 		 	background: url('/assets/img/disc-golf.JPG');
 			background-size: cover;
 			background-position: center;
-			height: 20rem;
+			height: 30rem;
 			border: 6px solid $color-secondary;
 			width: 50%;
 			margin-left: 1rem;
@@ -119,7 +168,7 @@
 		 	background: url('/assets/img/q-2.JPG');
 			background-size: cover;
 			background-position: center;
-			height: 20rem;
+			height: 30rem;
 			border: 6px solid $color-secondary;
 			width: 50%;
 			margin-left: 1rem;

@@ -236,6 +236,33 @@ footer {
 
   .hero__container--img {
     width: 60%; } }
+@media (max-width: 740px) {
+  .hero-image h1 {
+    font-size: 5rem; }
+  .hero-image h2 {
+    font-size: 1.2rem;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif; }
+  .hero-image h3 {
+    font-size: 1rem;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif; } }
+@media (max-width: 444px) {
+  .hero-image h1 {
+    font-size: 3rem; }
+  .hero-image h2 {
+    font-size: 1rem;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif; }
+  .hero-image h3 {
+    font-size: .9rem;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif; } }
+@media (max-width: 400px) {
+  .hero-image h1 {
+    font-size: 3rem; }
+  .hero-image h2 {
+    font-size: 1rem;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif; }
+  .hero-image h3 {
+    font-size: .7rem;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif; } }
 .about p {
   text-align: center;
   font-size: 1.2rem; }
@@ -245,7 +272,7 @@ footer {
   .about__img h1 {
     font-size: 3rem; }
   .about__img img {
-    width: 18rem;
+    width: 20rem;
     border: 6px solid #525B56;
     box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.6); }
 .about__split-img {
@@ -256,7 +283,7 @@ footer {
     background: url("/assets/img/img1.JPG");
     background-size: cover;
     background-position: center;
-    height: 20rem;
+    height: 30rem;
     border: 6px solid #525B56;
     width: 50%;
     margin-left: 1rem;
@@ -265,7 +292,7 @@ footer {
     background: url("/assets/img/ryder-cup.JPG");
     background-size: cover;
     background-position: center;
-    height: 20rem;
+    height: 30rem;
     border: 6px solid #525B56;
     width: 50%;
     margin-left: 1rem;
@@ -274,7 +301,7 @@ footer {
     background: url("/assets/img/disc-golf.JPG");
     background-size: cover;
     background-position: center;
-    height: 20rem;
+    height: 30rem;
     border: 6px solid #525B56;
     width: 50%;
     margin-left: 1rem;
@@ -283,7 +310,7 @@ footer {
     background: url("/assets/img/q-2.JPG");
     background-size: cover;
     background-position: center;
-    height: 20rem;
+    height: 30rem;
     border: 6px solid #525B56;
     width: 50%;
     margin-left: 1rem;
@@ -334,7 +361,8 @@ footer {
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 2rem;
-    box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.6); }
+    box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.6);
+    background: #FFF; }
   .team__card--container:hover {
     box-shadow: 0 2px 20px -2px rgba(0, 0, 0, 0.9); }
   .team__card--container:hover .team__card--figure {
@@ -355,7 +383,7 @@ footer {
     height: 28%;
     top: 0;
     border-radius: 4px 4px 0px 0px;
-    background: linear-gradient(140deg, #525B56, #BE9063);
+    background: linear-gradient(140deg, #132226, #525B56);
     z-index: 1; }
   .team__card--figure {
     width: 140px;
@@ -424,7 +452,8 @@ html {
 body {
   font-family: trade-gothic-next-compressed,sans-serif;
   font-weight: 400;
-  font-style: normal; }
+  font-style: normal;
+  background: url("/assets/img/background.png"); }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: trade-gothic-next-compressed,sans-serif;
